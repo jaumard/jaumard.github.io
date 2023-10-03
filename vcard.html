@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-color-19b99a theme-skin-light" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jimmy Aumard card</title>
+    <meta property="og:url" content="https://www.jaumard.com/vcard">
+    <meta property="og:title" content="Jimmy Aumard, Senior Software Engineer">
+    <meta property="og:image" content="/images/home/ja-photo-v2.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jimmy Aumard">
+
+    <meta name="Description"
+          content="Passionate about music and programming, I have a multi disciplinary profile that allows me to be independent. I love exploring and learning new things. With my experience I can realize the projects from start to finish, I can work on the front office or back office but my preference is on mobile development for SmartPhones, Tablets or IoT devices.">
+    <meta name="Keywords"
+          content="aumard,jaumard,jimmy,website,mobile,e-commerce,shop,intranet,extranet,software,development,mobile applications,android,ios,iphone,ipad,xamarin,cordova,node.js,node,java,j2ee,javascript,html,css,sql">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--STYLES START-->
+    <link rel="stylesheet" type="text/css" href="/min/prod.min.css">
+    <style>
+        html, body {
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: #1f2125;
+            overflow: scroll;
+        }
+
+        .vcard {
+            background: white;
+            max-width: 500px;
+            min-width: 300px;
+            min-height: 430px;
+            position: fixed;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 0%);
+            margin: 0 auto;
+            padding-top: 20px;
+            border-radius: 25px 25px 0 0;
+        }
+
+        .profile-social {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .avatar {
+            position: inherit;
+            background: url("/images/home/ja.jpg") no-repeat center;
+            background-size: cover;
+            /* round the edges to a circle with border radius 1/2 container size */
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-top: -55px;
+            margin-left: -35px;
+        }
+
+        h1 {
+            padding-left: 105px;
+            padding-right: 25px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+            padding-left: 105px;
+            padding-right: 25px;
+        }
+
+        .categories {
+            padding: 5px 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .categories p {
+            float: left;
+            padding: 0 10px;
+            margin: 3px;
+            border-radius: 15px;
+        }
+
+        .mobile {
+            background: #ebf0fb;
+            color: #113b97;
+        }
+
+        .backend {
+            background: #fff0d9;
+            color: #c47e0a;
+        }
+
+        .random {
+            background: #e1faea;
+            color: #488a58;
+        }
+
+        .buttons {
+            clear: both;
+            text-align: center;
+            padding: 0 15px;
+        }
+
+        .buttons .btn {
+            margin-bottom: 15px;
+        }
+
+        @media (min-height: 530px) {
+            .vcard {
+                min-height: 80%;
+            }
+        }
+
+        @media (max-height: 480px) and (orientation: landscape){
+            .vcard {
+                position: absolute;
+                display: block;
+                margin: 50px auto;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                top: 50%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .vcard {
+                min-height: 460px;
+            }
+            .buttons {
+                display: block;
+                margin: auto;
+                width: 200px;
+            }
+            .buttons .btn {
+                display: inline-block;
+                width: 100%;
+            }
+            .btn {
+                padding: 15px 20px;
+                min-width: auto;
+            }
+            .categories {
+                margin-top: 20px;
+            }
+            .section-about .profile-title {
+                font-size: 22px;
+            }
+            .section-about .profile-position {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <!--STYLES END-->
+</head>
+
+<body class="home">
+<!--suppress CommaExpressionJS, JSUnresolvedReference -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = true;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-26212073-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<div class="vcard section-about">
+    <div class="avatar"></div>
+    <h1 class="profile-title">Jimmy Aumard</h1>
+    <h2 class="profile-position">Senior Software Engineer</h2>
+    <div class="categories">
+        <p class="mobile">Flutter/Dart</p>
+        <p class="mobile">Mobile applications</p>
+        <p class="random">Full-stack</p>
+        <p class="backend">Node.js</p>
+        <p class="backend">Java EE</p>
+        <p class="mobile">Android</p>
+        <p class="mobile">iOS</p>
+    </div>
+
+    <div class="buttons">
+        <button class="btn btn-border ripple" id="add-contact">Save contact</button>
+        <a class="btn btn-border ripple" target="_blank" href="/files/JimmyAumardResume.pdf">Resume</a>
+        <a class="btn btn-border ripple" href="/">Website</a>
+    </div>
+    <div class="profile-social">
+        <ul class="social">
+            <li><a class="ripple-centered" href="https://www.linkedin.com/in/jimmy-aumard-436b6950"
+                   target="_blank"><i class="icon icon-linkedin"></i></a></li>
+            <li><a class="ripple-centered" href="https://github.com/jaumard" target="_blank"><i
+                    class="icon icon-github"></i></a></li>
+            <li><a class="ripple-centered" href="https://stackoverflow.com/users/story/541867"
+                   target="_blank"><i class="icon icon-stackoverflow"></i></a></li>
+            <li><a class="ripple-centered" href="https://twitter.com/jaumard" target="_blank"><i
+                    class="icon icon-twitter"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    const saveBtn = document.getElementById("add-contact");
+    saveBtn.addEventListener("click", function () {
+        // Get the contact information from the website
+        const contact = {
+            name: "Jimmy Aumard",
+            phone: "+33612661191",
+            email: "jimmy.aumard@gmail.com",
+            fn: "Senior Software Engineer",
+            url: "https://jaumard.com",
+            logo: "https://jaumard.com/images/home/ja-logo.png",
+            photo: "https://jaumard.com/images/home/ja.jpg"
+        };
+        // create a vcard file
+        const vcard = "BEGIN:VCARD\nVERSION:4.0\n" +
+            "PHOTO;MEDIATYPE=image/jpeg:" + contact.photo + "\n" +
+            "LOGO;MEDIATYPE=image/png:" + contact.logo + "\n" +
+            "URL:" + contact.url + "\n" +
+            "KIND:individual\n" +
+            "NICKNAME:Jim,Jimmy\n" +
+            "NOTE: Senior software engineer specialized in mobile applications with Flutter\n" +
+            "TITLE:" + contact.fn + "\n" +
+            "FN:" + contact.name + "\n" +
+            "TEL;TYPE=work,voice:" + contact.phone + "\n" +
+            "EMAIL:" + contact.email + "\n" +
+            "CATEGORIES:guitarist,singer,software engineer,software architect\n" +
+            "SOURCE:https://jaumard.com/vcard\n" +
+            "END:VCARD\n";
+        const blob = new Blob([vcard], {type: "text/vcard"});
+        const url = URL.createObjectURL(blob);
+
+        const newLink = document.createElement('a');
+        newLink.download = contact.name + ".vcf";
+        newLink.textContent = contact.name;
+        newLink.href = url;
+
+        newLink.click();
+    });
+</script>
+</body>
+</html>
